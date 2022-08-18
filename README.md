@@ -1,14 +1,27 @@
-# BookInventoryApi
+### book keeping api
+
+This is an api app to keep records of books. 
 
 
-#### RUN
-First download the application into your local repository.
-Install the packages for the project using the requirements.txt file.
-Make migrations and create a superuser.
-Open the project in your virtual environment and run the project.
+## Purpose
 
-Once you begin to run the project, you can assign permissions to the users.
-Permissions have been set based on who can view, add and delete.
-Superuser can have permission to all actions, staff has permission to add and change while an active user or user may just have a view permission.
+Exploring apis for the first time.
 
-You can login after creating the superuser. You can also login by crating a user by assessing the users url by just adding 'users' to your link.
+
+## Run
+- Create a virtual environment for the project.
+- Move into the root folder and open your terminal.
+- Activate the virtual environment you created.
+- Run pip install -r requirements.txt
+- Run python manage.py makemigrations
+- Run python manage.py migrate.
+- Run python manage.py runserver
+
+
+Now your app should be running.
+
+
+TODO:
+- Go to the settings.py and change the db to your specified db.
+
+
